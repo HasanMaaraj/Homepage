@@ -1,0 +1,18 @@
+:root {
+    --primary-orange: #E27D60;
+    --secondary-orange: #E8A87C;
+    --primary-green: #85DCB0;
+    --secondary-green: #41B3A3;
+    --light-red: #C38D9E;
+}
+
+@font-face {
+    font-family: 'comic_reliefregular';
+    src: url('./fonts/web\ fonts/comicrelief_regular_macroman/ComicRelief-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'comic_reliefregular';
+}
