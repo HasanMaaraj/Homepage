@@ -16,3 +16,35 @@
 body {
     font-family: 'comic_reliefregular';
 }
+
+header {
+    height: 30rem;
+    background-color: green;
+}
+
+main {
+    height: 50rem;
+    background-color: blue;
+}
+
+footer {
+    height: 25rem;
+    background-color: red;
+}
+
+
+/* mobile style */
+@media (max-width: 600px) {
+    header {
+        height: 50rem;
+    }
+    
+    main {
+        height: 100rem;
+    }
+    
+    footer {
+        height: 60rem;
+    }
+}
+
