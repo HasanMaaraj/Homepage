@@ -20,6 +20,10 @@ body {
 header {
     height: 30rem;
     background-color: green;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
 }
 
 main {
@@ -32,6 +36,37 @@ footer {
     background-color: red;
 }
 
+.about-me {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 0px;
+    width: max(80%, 500px);
+    justify-content: center;
+    align-content: center;
+}
+
+.info {
+    padding: 1rem;
+    background-color: blue;
+    display: grid;
+    grid-auto-flow: row;
+}
+
+.info svg {
+    height: 2.2rem;
+    width: auto;
+    justify-self: end;
+}
+
+.info div {
+    display: grid;
+    justify-items: end;
+}
+
+.about-me img {
+    height: 22rem;
+    width: auto;
+}
 
 /* mobile style */
 @media (max-width: 600px) {
