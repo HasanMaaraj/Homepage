@@ -27,8 +27,9 @@ header {
 }
 
 main {
-    height: 50rem;
+    /* height: 50rem; */
     background-color: blue;
+    padding: 6rem;
 }
 
 footer {
@@ -53,9 +54,12 @@ footer {
 }
 
 .info svg {
+    justify-self: end;
+}
+
+svg {
     height: 2.2rem;
     width: auto;
-    justify-self: end;
 }
 
 .info div {
@@ -68,6 +72,32 @@ footer {
     width: auto;
 }
 
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 36rem);
+    justify-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.project-data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    background-color: var(--secondary-orange);
+    padding: 1rem;
+    border-radius: .8rem;
+}
+
+.card img {
+    height: 22rem;
+    width: 36rem;
+    border-radius: .8rem;
+
+}
 /* mobile style */
 @media (max-width: 600px) {
     header {
