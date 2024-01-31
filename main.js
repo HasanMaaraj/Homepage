@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./fonts/web fonts/comicrelief_regular_macroman/ComicRelief-webfont.woff */ \"./src/fonts/web fonts/comicrelief_regular_macroman/ComicRelief-webfont.woff\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `:root {\n    --primary-orange: #E27D60;\n    --secondary-orange: #E8A87C;\n    --primary-green: #85DCB0;\n    --secondary-green: #41B3A3;\n    --light-red: #C38D9E;\n}\n\n@font-face {\n    font-family: 'comic_reliefregular';\n    src: url(${___CSS_LOADER_URL_REPLACEMENT_0___}) format('woff');\n    font-weight: normal;\n    font-style: normal;\n}\n\nbody {\n    font-family: 'comic_reliefregular';\n}\n\nheader {\n    height: 30rem;\n    background-color: green;\n    display: grid;\n    align-content: center;\n    justify-content: center;\n    justify-items: center;\n}\n\nmain {\n    height: 50rem;\n    background-color: blue;\n}\n\nfooter {\n    height: 25rem;\n    background-color: red;\n}\n\n.about-me {\n    display: grid;\n    grid-template-columns: 1fr 4fr;\n    gap: 0px;\n    width: max(80%, 500px);\n    justify-content: center;\n    align-content: center;\n}\n\n.info {\n    padding: 1rem;\n    background-color: blue;\n    display: grid;\n    grid-auto-flow: row;\n}\n\n.info svg {\n    height: 2.2rem;\n    width: auto;\n    justify-self: end;\n}\n\n.info div {\n    display: grid;\n    justify-items: end;\n}\n\n.about-me img {\n    height: 22rem;\n    width: auto;\n}\n\n/* mobile style */\n@media (max-width: 600px) {\n    header {\n        height: 50rem;\n    }\n    \n    main {\n        height: 100rem;\n    }\n    \n    footer {\n        height: 60rem;\n    }\n}\n\n`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://homepage/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./fonts/web fonts/comicrelief_regular_macroman/ComicRelief-webfont.woff */ \"./src/fonts/web fonts/comicrelief_regular_macroman/ComicRelief-webfont.woff\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `:root {\n    --primary-orange: #E27D60;\n    --secondary-orange: #E8A87C;\n    --primary-green: #85DCB0;\n    --secondary-green: #41B3A3;\n    --light-red: #C38D9E;\n}\n\n@font-face {\n    font-family: 'comic_reliefregular';\n    src: url(${___CSS_LOADER_URL_REPLACEMENT_0___}) format('woff');\n    font-weight: normal;\n    font-style: normal;\n}\n\nbody {\n    font-family: 'comic_reliefregular';\n}\n\nheader {\n    height: 30rem;\n    background-color: green;\n    display: grid;\n    align-content: center;\n    justify-content: center;\n    justify-items: center;\n}\n\nmain {\n    /* height: 50rem; */\n    background-color: blue;\n    padding: 6rem;\n}\n\nfooter {\n    height: 25rem;\n    background-color: red;\n}\n\n.about-me {\n    display: grid;\n    grid-template-columns: 1fr 4fr;\n    gap: 0px;\n    width: max(80%, 500px);\n    justify-content: center;\n    align-content: center;\n}\n\n.info {\n    padding: 1rem;\n    background-color: blue;\n    display: grid;\n    grid-auto-flow: row;\n}\n\n.info svg {\n    justify-self: end;\n}\n\nsvg {\n    height: 2.2rem;\n    width: auto;\n}\n\n.info div {\n    display: grid;\n    justify-items: end;\n}\n\n.about-me img {\n    height: 22rem;\n    width: auto;\n}\n\n.container {\n    display: grid;\n    grid-template-columns: repeat(auto-fit, 36rem);\n    justify-items: center;\n    justify-content: center;\n    gap: 3rem;\n}\n\n.project-data {\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n}\n\n.card {\n    background-color: var(--secondary-orange);\n    padding: 1rem;\n    border-radius: .8rem;\n}\n\n.card img {\n    height: 22rem;\n    width: 36rem;\n    border-radius: .8rem;\n\n}\n/* mobile style */\n@media (max-width: 600px) {\n    header {\n        height: 50rem;\n    }\n    \n    main {\n        height: 100rem;\n    }\n    \n    footer {\n        height: 60rem;\n    }\n}\n\n`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://homepage/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -126,7 +126,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _images_about_me_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./images/about-me.jpg */ \"./src/images/about-me.jpg\");\n\n\nconst loadHeader = () => {\n    console.log('loading header')\n    const aboutMe = new Image();\n    aboutMe.src = _images_about_me_jpg__WEBPACK_IMPORTED_MODULE_1__;\n    console.log(aboutMe)\n    document.querySelector('.about-me').prepend(aboutMe);\n};\n\nloadHeader();\nconsole.log('hi')\n\n//# sourceURL=webpack://homepage/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _images_about_me_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./images/about-me.jpg */ \"./src/images/about-me.jpg\");\n/* harmony import */ var _images_battleship_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./images/battleship.png */ \"./src/images/battleship.png\");\n/* harmony import */ var _images_calculator_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./images/calculator.png */ \"./src/images/calculator.png\");\n/* harmony import */ var _images_todo_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./images/todo.png */ \"./src/images/todo.png\");\n/* harmony import */ var _images_library_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./images/library.png */ \"./src/images/library.png\");\n/* harmony import */ var _images_tic_tac_toe_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./images/tic-tac-toe.png */ \"./src/images/tic-tac-toe.png\");\n/* harmony import */ var _images_weather_app_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./images/weather-app.png */ \"./src/images/weather-app.png\");\n\n\n\n\n\n\n\n\n\n\n\n\nconst loadHeader = () => {\n    console.log('loading header')\n    const aboutMe = new Image();\n    aboutMe.src = _images_about_me_jpg__WEBPACK_IMPORTED_MODULE_1__;\n    console.log(aboutMe)\n    document.querySelector('.about-me').prepend(aboutMe);\n};\n\nconst prependImage = (image, title) => {\n    document.querySelector(`.${title}`).prepend(image)\n}\n\nconst loadProjectsImages = () => {\n    const battleshipImage = new Image();\n    battleshipImage.src = _images_battleship_png__WEBPACK_IMPORTED_MODULE_2__;\n    document.querySelector('.battleship').prepend(battleshipImage);\n\n    const calculatorImage = new Image();\n    calculatorImage.src = _images_calculator_png__WEBPACK_IMPORTED_MODULE_3__;\n    document.querySelector('.calculator').prepend(calculatorImage);\n\n    const toDoImage = new Image();\n    toDoImage.src = _images_todo_png__WEBPACK_IMPORTED_MODULE_4__;\n    document.querySelector('.to-do').prepend(toDoImage);\n\n    const libraryImage = new Image();\n    libraryImage.src = _images_library_png__WEBPACK_IMPORTED_MODULE_5__;\n    document.querySelector('.library').prepend(libraryImage);\n\n    const ticTacToeImage = new Image();\n    ticTacToeImage.src = _images_tic_tac_toe_png__WEBPACK_IMPORTED_MODULE_6__;\n    document.querySelector('.tic-tac-toe').prepend(ticTacToeImage);\n\n    const weatherAppImage = new Image();\n    weatherAppImage.src = _images_weather_app_png__WEBPACK_IMPORTED_MODULE_7__;\n    document.querySelector('.weather-app').prepend(weatherAppImage);\n}\n\n\nloadHeader();\nloadProjectsImages();\n\n//# sourceURL=webpack://homepage/./src/index.js?");
 
 /***/ }),
 
@@ -147,6 +147,66 @@ eval("module.exports = __webpack_require__.p + \"ComicRelief-webfont.woff\";\n\n
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"about-me.jpg\";\n\n//# sourceURL=webpack://homepage/./src/images/about-me.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/battleship.png":
+/*!***********************************!*\
+  !*** ./src/images/battleship.png ***!
+  \***********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"battleship.png\";\n\n//# sourceURL=webpack://homepage/./src/images/battleship.png?");
+
+/***/ }),
+
+/***/ "./src/images/calculator.png":
+/*!***********************************!*\
+  !*** ./src/images/calculator.png ***!
+  \***********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"calculator.png\";\n\n//# sourceURL=webpack://homepage/./src/images/calculator.png?");
+
+/***/ }),
+
+/***/ "./src/images/library.png":
+/*!********************************!*\
+  !*** ./src/images/library.png ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"library.png\";\n\n//# sourceURL=webpack://homepage/./src/images/library.png?");
+
+/***/ }),
+
+/***/ "./src/images/tic-tac-toe.png":
+/*!************************************!*\
+  !*** ./src/images/tic-tac-toe.png ***!
+  \************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"tic-tac-toe.png\";\n\n//# sourceURL=webpack://homepage/./src/images/tic-tac-toe.png?");
+
+/***/ }),
+
+/***/ "./src/images/todo.png":
+/*!*****************************!*\
+  !*** ./src/images/todo.png ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"todo.png\";\n\n//# sourceURL=webpack://homepage/./src/images/todo.png?");
+
+/***/ }),
+
+/***/ "./src/images/weather-app.png":
+/*!************************************!*\
+  !*** ./src/images/weather-app.png ***!
+  \************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"weather-app.png\";\n\n//# sourceURL=webpack://homepage/./src/images/weather-app.png?");
 
 /***/ })
 
