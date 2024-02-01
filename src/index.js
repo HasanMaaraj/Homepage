@@ -6,7 +6,7 @@ import toDo from './images/todo.png';
 import library from './images/library.png';
 import ticTacToe from './images/tic-tac-toe.png';
 import weatherApp from './images/weather-app.png';
-
+import forest from './images/forest.jpg';
 
 
 
@@ -18,9 +18,7 @@ const loadHeader = () => {
     document.querySelector('.about-me').prepend(aboutMe);
 };
 
-const prependImage = (image, title) => {
-    document.querySelector(`.${title}`).prepend(image)
-}
+
 
 const loadProjectsImages = () => {
     const battleshipImage = new Image();
@@ -48,6 +46,13 @@ const loadProjectsImages = () => {
     document.querySelector('.weather-app').prepend(weatherAppImage);
 }
 
+const loadFooter = () => {
+    const forestImage = new Image();
+    forestImage.src = forest;
+    document.querySelector('footer').appendChild(forestImage);
+}
+
 
 loadHeader();
 loadProjectsImages();
+loadFooter();
