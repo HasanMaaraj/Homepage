@@ -75,7 +75,7 @@ svg {
 
 .container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 36rem);
+    grid-template-columns: repeat(auto-fit, 30rem);
     justify-items: center;
     justify-content: center;
     gap: 3rem;
@@ -94,8 +94,8 @@ svg {
 }
 
 .card img {
-    height: 22rem;
-    width: 36rem;
+    height: 20rem;
+    width: 30rem;
     border-radius: .8rem;
 
 }
@@ -125,18 +125,48 @@ footer img {
     justify-self: end;
 }
 
+
+
+@media (max-width: 1300px) {
+    footer {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        padding: 0px;
+    }
+
+    footer img {
+        width: 100%;
+        height: auto;    
+    }
+}
+
 /* mobile style */
 @media (max-width: 600px) {
     header {
         height: 50rem;
     }
     
-    main {
-        height: 100rem;
+    .about-me {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        width: 100%;
+    }
+
+    .container {
+        grid-template-columns: 100%;
+    }
+
+    .card img {
+        width: 100%;
+
     }
     
-    footer {
-        height: 60rem;
-    }
+
 }
 
+@media (max-width: 22rem) {
+    .about-me img {
+        width: 100%;
+        height: auto;
+    }
+}
